@@ -11,27 +11,10 @@ html {
 body{
   line-height:2;
   font-size:2.5rem;
-  font-family: 
-}
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
 
 header{
-  height:30vh;
-  background-color:
-  background-image:
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center top;
-  background-attachment:fixed;
+
 }
 
 .container {
@@ -39,25 +22,21 @@ header{
 }
 
 .logo {
-  width: 10vw;
+
 }
 
 h1 {
-  font-family: 'Orbitron', sans-serif;
+  
 }
 
 h2 {
-  font-family:
-  margin-top: 
-  margin-left: 
 }
 
 .text-box {
   width: 80%;
-  font-size: 2vw;
 }
 
-nav {
+#hnavbuttons {
   display: flex;
   margin-left: 5%;
   margin-bottom: 1%;
@@ -65,49 +44,52 @@ nav {
 }
 
 .button1 {
-  color:
+  color: #b8f2e6;
   text-decoration: none;
-  background-color:
+  background-color: #073b4c;
   padding: 0 5%;
   font-size:1.6rem;
   height: 2%;
 }
 
 nav a {
-  color:
+  color: #b8f2e6;
   text-decoration: none;
-  background-color:
-  padding:
+  background-color: #118ab2;
+  padding: 0 5%;
   font-size:1.6rem;
-  height:
+  height: 2%;
 }
 
 nav a:hover {
-  background-color:
-  color:
+  background-color: #b8f2e6;
+  color: #FFCD69;
   animation-name: navhover;
   animation-duration: 6s;
   animation-iteration-count: 10;
 }
 
 @keyframes navhover {
-  0%   {background-color: 
-  25%  {background-color: 
-  50%  {background-color: 
-  75%  {background-color: 
-  100% {background-color:
+  0%   {background-color: #b8f2e6;}
+  25%  {background-color: #b8f2e6;}
+  50%  {background-color: #06d6a0;}
+  75%  {background-color: #b8f2e6;}
+  100% {background-color: white;}
 }
 
 .section1 {
   display: flex;
-  flex-shrink: 3;
   margin: 1%;
-  justify-content: center;
 }
 
 .section1 img {
   width: 49%;
-  object-fit: contain;
+  height: auto;
+}
+
+.contact {
+  line-height:2;
+  font-size:3.6rem;
 }
 
 .aboutbox {
@@ -117,35 +99,66 @@ nav a:hover {
   margin-left: 5%
   margin-bottom: 5%;
   padding-left: 5%;
-  color:
-  font-size: 2vw;
+  color:#023e8a;
   }
 
 
-
-.pic {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
+.projectsbutton {
+  background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
+  color: #023e8a;
+  padding: 1% 3%;
+  margin: 3% auto;
+  font-size:1.6rem;
+  text-decoration: none;
 }
 
-.pic img {
-  width: 20vw;
-  height: 20vw;
+.projectsbutton:hover {
+  background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
+  color: white;
+}
+
+
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-content: center;
+  align-content: space-around;
+  align-content: space-between;
+}
+
+.artist img {
+  margin-bottom: 3%;
+}
+
+h3 {
+  margin-bottom: 3%;
+}
+
+#pic {
+  margin-top: 5%;
+  border-radius: 30%;
 }
 
 footer {
-  background-color:
+  background-color: #ffa6c1;
   padding-top: 5%;
   margin-top: 5%;
 }
 
+.ender {
+  background-image: linear-gradient(#ffa6c1, white, #ffa6c1);
+  display:inline-block;
+  width:100%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: #a53860;
+}
 
 .contactbutton {
-  background-color: 
-  color: 
+  background-color: #a53860;
+  color: white;
   padding: 1% 3%;
   height: 2%;
   font-size:1.5rem;
@@ -153,8 +166,8 @@ footer {
 }
 
 .contactbutton:hover {
-  background-color:
-  color: 
+  background-color: white;
+  color: #fca311;
   animation-name: navhover;
   animation-duration: 6s;
   animation-iteration-count: 10;
@@ -163,64 +176,4 @@ footer {
 .icons {
   display:flex;
   justify-content: center;
-}
-
-@media (max-width: 800px) {
-  .logo {
-    width: 20vw;
-  }
-  .text-box {
-    width: 80%;
-    font-size: 3vw;
-  }
-  .pic img {
-    width: 30vw;
-    height: 30vw;
-  }
-
-  .aboutbox {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 500px) {
-  .logo {
-    width: 30vw;
-  }
-  .text-box {
-    width: 80%;
-    font-size: 3.5vw;
-  }
-  header{
-    height:45vh;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-
-  nav a {
-    width: 30%;
-    text-align: center;
-  }
-  .pic img {
-    width: 40vw;
-    height: 40vw;
-  }
-  .section1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100vw;
-  }
-  .section1 img {
-    width: 80%;
-  }
-  .aboutbox {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
-  }
 }
