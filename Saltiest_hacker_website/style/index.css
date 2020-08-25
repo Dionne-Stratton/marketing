@@ -155,9 +155,10 @@ nav a:hover {
 .section1 {
   display: flex;
   flex-shrink: 3;
-  margin: 1%;
+  margin: 5%;
   justify-content: center;
 }
+
 
 .section1 img {
   width: 49%;
@@ -183,32 +184,33 @@ nav a:hover {
   margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
+<<<<<<< HEAD
+=======
   color: ;
+>>>>>>> 018f2c42735435aafb6b3717d91d15ffd5101452
   font-size: 2vw;
   }
 
-  .connectbox {
-    width: 52%;
-    display:inline-block;
-    margin-top: 10%;
-    margin-left: 5%
-    margin-bottom: 5%;
-    padding-left: 5%;
-    color:
-    font-size: 2vw;
-    }
+.connectbox {
+  width: 52%;
+  display:inline-block;
+  margin-top: 10%;
+  margin-left: 5%
+  margin-bottom: 5%;
+  padding-left: 5%;
+  font-size: 2vw;
+  }
     
 
-    .blogbox {
-      width: 52%;
-      display:inline-block;
-      margin-top: 10%;
-      margin-left: 5%
-      margin-bottom: 5%;
-      padding-left: 5%;
-      color:
-      font-size: 2vw;
-      }
+.blogbox {
+  width: 52%;
+  display:inline-block;
+  margin-top: 5%;
+  margin-left: 5%
+  margin-bottom: 5%;
+  padding-left: 5%;
+  font-size: 2vw;
+  }
 
 .pic {
   display: flex;
@@ -276,6 +278,14 @@ footer {
   .aboutbox {
     font-size: 2vw;
   }
+
+  .blogbox {
+    font-size: 2vw;
+  }
+
+  .connectbox {
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 500px) {
@@ -309,13 +319,41 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
+    margin: 5% 0%;
   }
   .section1 img {
     width: 80%;
   }
+
+  .blogsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+  }
+  .blogsection img {
+    width: 80%;
+  }
+
   .aboutbox {
     width: 80%;
     font-size: 4vw;
     text-align: center;
   }
+
+  .blogbox {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .connectbox {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .connectbox img {
+    width: 80%;
+  }
+
 }
