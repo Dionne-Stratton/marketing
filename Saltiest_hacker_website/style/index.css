@@ -123,6 +123,18 @@ nav a:hover {
   object-fit: contain;
 }
 
+.blogsection {
+  display: flex;
+  flex-shrink: 3;
+  margin: 1%;
+  justify-content: center;
+}
+
+.blogsection img {
+  width: 49%;
+  object-fit: contain;
+}
+
 .aboutbox {
   width: 52%;
   display:inline-block;
@@ -134,7 +146,28 @@ nav a:hover {
   font-size: 2vw;
   }
 
+  .connectbox {
+    width: 52%;
+    display:inline-block;
+    margin-top: 10%;
+    margin-left: 5%
+    margin-bottom: 5%;
+    padding-left: 5%;
+    color:
+    font-size: 2vw;
+    }
+    
 
+    .blogbox {
+      width: 52%;
+      display:inline-block;
+      margin-top: 10%;
+      margin-left: 5%
+      margin-bottom: 5%;
+      padding-left: 5%;
+      color:
+      font-size: 2vw;
+      }
 
 .pic {
   display: flex;
