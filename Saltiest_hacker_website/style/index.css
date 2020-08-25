@@ -110,6 +110,37 @@ nav a:hover {
   width: 20%;
 }
 
+.sign-in{
+  width: 35%;
+  padding: 3% 2%;
+  margin: 0 auto;
+  background-color: #f56505;
+  color: #f8f8f8;
+  border-radius: 15px;
+}
+
+.sign-up{
+  color: #f56505;
+}
+
+.content-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-content-box{
+  width: 50%;
+}
+
+.inner-content-box img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.inner-content-box p{
+  margin: 15%;
+}
+
 
 .section1 {
   display: flex;
@@ -139,10 +170,10 @@ nav a:hover {
   width: 52%;
   display:inline-block;
   margin-top: 10%;
-  margin-left: 5%
+  margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
-  color:
+  color: ;
   font-size: 2vw;
   }
 
