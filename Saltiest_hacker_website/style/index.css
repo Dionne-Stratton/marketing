@@ -30,6 +30,23 @@ a{
   font-family: 'Orbitron', sans-serif;
 }
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  padding-top: 2.5%;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.text-box {
+  width: 80%;
+  font-size: 2vw;
+}
+
+/* begin header styling */
+
 .head-wrapper{
   display:flex;
   flex-direction: row;
@@ -45,21 +62,6 @@ a{
 
 .logo {
   height: 8rem;
-}
-
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 4rem;
-  padding-top: 2.5%;
-}
-
-h2 {
-  font-family: 'Orbitron', sans-serif;
-}
-
-.text-box {
-  width: 80%;
-  font-size: 2vw;
 }
 
 nav {
@@ -82,7 +84,7 @@ nav a:hover {
   color: #0fd6cd;
 }
 
-/* begin landing page styles */
+/* end header styles & begin landing page styles */
 
 .welcome-info{
   display: flex;
@@ -224,10 +226,6 @@ nav a:hover {
   height: 20vw;
 }
 
-footer {
-  background-color: #f56505;
-}
-
 
 .contactbutton {
   background-color: 
@@ -246,6 +244,12 @@ footer {
   animation-iteration-count: 10;
 }
 
+/* begin footer styles */
+
+footer {
+  background-color: #f56505;
+}
+
 .icons {
   display:flex;
   justify-content: center;
@@ -260,6 +264,8 @@ footer {
 .icons img{
   width: 100%;
 }
+
+/* end footer styles and begin media queries */
 
 @media (max-width: 800px) {
 
@@ -391,6 +397,8 @@ footer {
   .icons a{
     width: 15%;
   }
+
+  /* end footer styles */
 
   .text-box {
     width: 80%;
