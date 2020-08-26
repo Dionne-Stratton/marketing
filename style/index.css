@@ -154,17 +154,17 @@ nav a:hover {
   background-image: url(white_wall.png);
 }
 
-.inner-content-box{
+.inner-content-box-1, .inner-content-box-2, .inner-content-box-3, .inner-content-box-4{
   width: 50%;
 }
 
-.inner-content-box img{
+.inner-content-box-1 img, .inner-content-box-4 img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.inner-content-box p{
+.inner-content-box-2 p, .inner-content-box-3 p{
   margin: 20% 10%;
   font-size: 5rem;
 }
@@ -338,7 +338,7 @@ footer {
     width: 65%;
     margin: 0 auto;
   }
-  .inner-content-box p{
+  .inner-content-box-2 p, .inner-content-box-3 p{
     font-size: 3rem;
   }
 }
@@ -398,12 +398,12 @@ footer {
     margin: 0 auto;
   }
 
-  .inner-content-box p{
+  .inner-content-box-2 p, .inner-content-box-3 p{
     margin: 15% 10%;
     font-size: 2rem;
   }
 
-  .inner-content-box img{
+  .inner-content-box-1 img, .inner-content-box-4 img{
     height: 100%;
   }
 
@@ -411,6 +411,10 @@ footer {
 
   .about-content{
     margin: 10% 10%;
+  }
+
+  .team-member{
+    width: 50%;
   }
 
   /* end about page styles & begin footer styles */
@@ -469,11 +473,22 @@ footer {
     font-size: 2rem;
   }
 
-  .inner-content-box{
+  .inner-content-box-1, .inner-content-box-2, .inner-content-box-3, .inner-content-box-4{
     width: 100%;
   }
 
-  /* end home page content styles & begin footer styles */
+  .inner-content-box-1{order: 1;}
+  .inner-content-box-2{order: 2;}
+  .inner-content-box-3{order: 4;}
+  .inner-content-box-4{order: 3;}
+
+  /* end home page styles & begin about page styles */
+
+  .team-member{
+    width: 100%;
+  }
+
+  /* end about page content styles & begin footer styles */
 
   .icons a{
     width: 15%;
@@ -534,10 +549,47 @@ footer {
 }
 
 @media(max-width: 320px){
+
+  /* begin header styles */
+
   h1{
     font-size: 2rem;
   }
   .logo{
     height: 4rem;
+  }
+
+  .button{
+    font-size: 1.5rem;
+  }
+
+  .active-button{
+    font-size: 1.5rem;
+  }
+
+  /* end header styles and begin about page styles */
+
+  .about-content h2{
+    font-size: 2rem;
+  }
+
+  .about-content p{
+    font-size: 1.5rem;
+  }
+
+  .team{
+    font-size: 2rem;
+  }
+
+  .team-member h3{
+    font-size: 2rem;
+  }
+
+  .team-member p{
+    font-size: 1.5rem;
+  }
+
+  .team-member a{
+    font-size: 2rem;
   }
 }
