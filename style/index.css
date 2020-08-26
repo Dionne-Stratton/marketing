@@ -31,8 +31,8 @@ a{
 
 h1 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 4rem;
-  padding-top: 2.5%;
+  font-size: 3rem;
+  padding-top: 4%;
 }
 
 h2 {
@@ -60,7 +60,7 @@ h2 {
 }
 
 .logo {
-  height: 8rem;
+  height: 7rem;
   padding: 1.5%;
 }
 
@@ -131,7 +131,7 @@ nav a:hover {
   margin: 0 auto;
   background-color: #0fd6cd;
   color: #f8f8f8;
-  border-radius: 15px;
+  border-radius: 10px;
   trans.5s;
 }
 
@@ -466,6 +466,10 @@ footer {
   .member-buttons a{
     font-size: 1.5rem;
     width: 80%;
+  }
+
+  .sign-up{
+    padding-top: 3%;
   }
 
   .welcome-info p{
