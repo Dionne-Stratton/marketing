@@ -1,16 +1,16 @@
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-  font-size:62.5%;
+  font-size: 62.5%;
 }
 
-body{
-  line-height:1.5;
-  font-size:2.5rem;
+body {
+  line-height: 1.5;
+  font-size: 2.5rem;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body{
   width: 1px;
 }
 
-a{
+a {
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
 }
@@ -46,8 +46,8 @@ h2 {
 
 /* begin header styling */
 
-.head-wrapper{
-  display:flex;
+.head-wrapper {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #f56505;
@@ -78,7 +78,7 @@ nav {
   font-size: 2rem;
   width: 25%;
   padding-top: 4%;
-  transition:.5s
+  transition: 0.5s;
 }
 
 .active-button {
@@ -88,7 +88,7 @@ nav {
   width: 25%;
   padding-top: 4%;
   background-color: #0fd6cd;
-  transition:.5s
+  transition: 0.5s;
 }
 
 nav a:hover {
@@ -97,7 +97,7 @@ nav a:hover {
 
 /* end header styles & begin landing page styles */
 
-.welcome-info{
+.welcome-info {
   display: flex;
   text-align: center;
   border-bottom: #f56505 solid 6px;
@@ -105,12 +105,12 @@ nav a:hover {
   justify-content: center;
 }
 
-.welcome-info img{
+.welcome-info img {
   margin: 2% 0 2% 2%;
   width: 30%;
 }
 
-.welcome-info p{
+.welcome-info p {
   width: 50%;
   margin: auto;
   padding: 5%;
@@ -118,105 +118,110 @@ nav a:hover {
   color: #f8f8f8;
 }
 
-.member-buttons{
+.member-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 20%;
 }
 
-.sign-in{
+.sign-in {
   width: 35%;
   padding: 3% 2%;
   margin: 0 auto;
   background-color: #0fd6cd;
   color: #f8f8f8;
   border-radius: 15px;
-  transition:.5s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
-.sign-in:hover{
+.sign-in:hover {
   background-color: #f56505;
 }
 
-.sign-up{
+.sign-up {
   color: #f56505;
-  transition:.5s;
+  transition: 0.5s;
 }
 
-.sign-up:hover{
+.sign-up:hover {
   color: #0fd6cd;
 }
 
-.content-box{
+.content-box {
   display: flex;
   flex-wrap: wrap;
   background-image: url(white_wall.png);
 }
 
-.inner-content-box-1, .inner-content-box-2, .inner-content-box-3, .inner-content-box-4{
+.inner-content-box-1,
+.inner-content-box-2,
+.inner-content-box-3,
+.inner-content-box-4 {
   width: 50%;
 }
 
-.inner-content-box-1 img, .inner-content-box-4 img{
+.inner-content-box-1 img,
+.inner-content-box-4 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.inner-content-box-2 p, .inner-content-box-3 p{
+.inner-content-box-2 p,
+.inner-content-box-3 p {
   margin: 20% 10%;
   font-size: 5rem;
 }
 
 /* end landing page styles & begin about page styles */
 
-.about-container{
+.about-container {
   background-image: url(black_mamba.png);
   color: #f8f8f8;
 }
 
-.about-content{
+.about-content {
   margin: 2% 10%;
   text-align: center;
 }
 
-.team{
+.team {
   text-align: center;
 }
 
-.meet-the-team{
+.meet-the-team {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.team-member{
+.team-member {
   width: 25%;
   text-align: center;
   padding: 2%;
 }
 
-.team-member img{
+.team-member img {
   width: 85%;
 }
 
-.team-member p{
+.team-member p {
   margin-bottom: 1.5%;
 }
 
-.team-member a{
+.team-member a {
   width: 35%;
   padding: 1% 2%;
   margin: 0 auto;
   background-color: #0fd6cd;
   color: #f8f8f8;
   border-radius: 10px;
-  transition:.5s;
+  transition: 0.5s;
 }
 
-.team-member a:hover{
+.team-member a:hover {
   background-color: #f56505;
 }
 
@@ -231,7 +236,6 @@ nav a:hover {
   justify-content: center;
 }
 
-
 .connectsection img {
   width: 49%;
   object-fit: contain;
@@ -239,13 +243,13 @@ nav a:hover {
 
 .connectbox {
   width: 52%;
-  display:inline-block;
+  display: inline-block;
   margin-top: 10%;
   margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
   font-size: 2vw;
-  }
+}
 
 /* end connect page, begin blog page. */
 
@@ -263,16 +267,15 @@ nav a:hover {
 
 .blogbox {
   width: 52%;
-  display:inline-block;
+  display: inline-block;
   margin-top: 10%;
   margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
   font-size: 2vw;
-  }
+}
 /* 
 end blog page. */
-
 
 /* begin footer styles */
 
@@ -281,43 +284,42 @@ footer {
 }
 
 .icons {
-  display:flex;
+  display: flex;
   justify-content: center;
   padding: 1% 0;
   text-align: center;
 }
 
-.icons a{
+.icons a {
   width: 4%;
 }
 
-.icons img{
+.icons img {
   width: 100%;
 }
 
 /* end footer styles and begin media queries */
 
-@media (max-width: 1200px){
-  .member-buttons a{
+@media (max-width: 1200px) {
+  .member-buttons a {
     font-size: 2rem;
     width: 65%;
     margin: 0 auto;
   }
-  .inner-content-box-2 p, .inner-content-box-3 p{
+  .inner-content-box-2 p,
+  .inner-content-box-3 p {
     font-size: 3rem;
   }
 
-  .team-member{
+  .team-member {
     width: 50%;
   }
 }
 
-
 @media (max-width: 800px) {
-
   /* header */
 
-  .head-wrapper{
+  .head-wrapper {
     flex-direction: column;
     justify-content: space-between;
   }
@@ -329,68 +331,69 @@ footer {
   nav {
     width: 100%;
   }
-  
+
   nav a {
     padding: 0 1%;
   }
 
   /* end header styles, begin landing page content styles */
 
-  .welcome-info{
+  .welcome-info {
     display: flex;
     text-align: center;
     border-bottom: #f56505 solid 6px;
     background-color: #e6e6e6;
     justify-content: center;
   }
-  
-  .welcome-info img{
+
+  .welcome-info img {
     display: none;
   }
-  
-  .welcome-info p{
+
+  .welcome-info p {
     width: 75%;
     padding: 2%;
     font-size: 3rem;
   }
-  
-  .member-buttons{
+
+  .member-buttons {
     width: 25%;
   }
 
-  .sign-in{
+  .sign-in {
     width: 90%;
   }
-  
-  .sign-up{
+
+  .sign-up {
     color: #f56505;
     width: 90%;
     margin: 0 auto;
   }
 
-  .inner-content-box-2 p, .inner-content-box-3 p{
+  .inner-content-box-2 p,
+  .inner-content-box-3 p {
     margin: 15% 10%;
     font-size: 2rem;
   }
 
-  .inner-content-box-1 img, .inner-content-box-4 img{
+  .inner-content-box-1 img,
+  .inner-content-box-4 img {
     height: 100%;
   }
 
   /* end landing page content styles & begin about page styles */
 
-  .about-content{
+  .about-content {
     margin: 10% 10%;
   }
 
   /* end about page styles & begin footer styles */
 
-  .icons a{
+  .icons a {
     width: 7%;
   }
 
   /* end footer styles */
-
 
   .text-box {
     width: 80%;
@@ -407,52 +410,62 @@ footer {
 }
 
 @media (max-width: 500px) {
-  
   /* begin header styles */
 
-  .logo{
+  .logo {
     height: 6rem;
   }
 
-  h1{
+  h1 {
     font-size: 3rem;
   }
 
   /* end header styles & begin home page content styles */
 
-  .member-buttons a{
+  .member-buttons a {
     font-size: 1.5rem;
     width: 80%;
   }
 
-  .sign-up{
+  .sign-up {
     padding-top: 3%;
   }
 
-  .welcome-info p{
+  .welcome-info p {
     width: 75%;
     padding: 2%;
     font-size: 2rem;
   }
 
-  .inner-content-box-1, .inner-content-box-2, .inner-content-box-3, .inner-content-box-4{
+  .inner-content-box-1,
+  .inner-content-box-2,
+  .inner-content-box-3,
+  .inner-content-box-4 {
     width: 100%;
   }
 
-  .inner-content-box-1{order: 1;}
-  .inner-content-box-2{order: 2;}
-  .inner-content-box-3{order: 4;}
-  .inner-content-box-4{order: 3;}
+  .inner-content-box-1 {
+    order: 1;
+  }
+  .inner-content-box-2 {
+    order: 2;
+  }
+  .inner-content-box-3 {
+    order: 4;
+  }
+  .inner-content-box-4 {
+    order: 3;
+  }
 
   /* end home page styles & begin about page styles */
 
-  .team-member{
+  .team-member {
     width: 100%;
   }
 
   /* end about page content styles & begin footer styles */
 
-  .icons a{
+  .icons a {
     width: 15%;
   }
 
@@ -463,10 +476,8 @@ footer {
     font-size: 3.5vw;
     text-align: center;
   }
- 
-  /* begin connect styles. */
 
-  }
+  /* begin connect styles. */
   .connectsection {
     display: flex;
     flex-wrap: wrap;
@@ -480,7 +491,6 @@ footer {
     font-size: 4vw;
     text-align: center;
   }
-
 
   .blogsection {
     display: flex;
@@ -497,53 +507,48 @@ footer {
     font-size: 4vw;
     text-align: center;
   }
-
-
-
 }
-
-@media(max-width: 320px){
-
+@media (max-width: 320px) {
   /* begin header styles */
 
-  h1{
+  h1 {
     font-size: 2rem;
   }
-  .logo{
+  .logo {
     height: 4rem;
   }
 
-  .button{
+  .button {
     font-size: 1.5rem;
   }
 
-  .active-button{
+  .active-button {
     font-size: 1.5rem;
   }
 
   /* end header styles and begin about page styles */
 
-  .about-content h2{
+  .about-content h2 {
     font-size: 2rem;
   }
 
-  .about-content p{
+  .about-content p {
     font-size: 1.5rem;
   }
 
-  .team{
+  .team {
     font-size: 2rem;
   }
 
-  .team-member h3{
+  .team-member h3 {
     font-size: 2rem;
   }
 
-  .team-member p{
+  .team-member p {
     font-size: 1.5rem;
   }
 
-  .team-member a{
+  .team-member a {
     font-size: 2rem;
   }
 }
