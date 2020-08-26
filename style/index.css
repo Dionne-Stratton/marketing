@@ -2,7 +2,7 @@
   padding:0;
   margin:0;
   box-sizing:border-box;
-  /* border: hotpink 1px solid; */
+  border: hotpink 1px solid;
 }
 
 html {
@@ -172,9 +172,24 @@ nav a:hover {
 /* end landing page styles & begin about page styles */
 
 .about-content{
-  margin: 10% 30%;
+  margin: 2% 10%;
   text-align: center;
-  border: solid 5px #f56505;
+}
+
+.team{
+  text-align: center;
+}
+
+.meet-the-team{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team-member{
+  width: 25%;
+  text-align: center;
+  padding: 5%;
 }
 
 /* end about page styles */
