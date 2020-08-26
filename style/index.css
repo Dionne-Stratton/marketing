@@ -2,7 +2,7 @@
   padding:0;
   margin:0;
   box-sizing:border-box;
-  border: hotpink 1px solid;
+  /* border: hotpink 1px solid; */
 }
 
 html {
@@ -72,16 +72,27 @@ nav {
   width: 40%;
 }
 
-nav a {
+.button {
   color: #f8f8f8;
   text-decoration: none;
   font-size: 2rem;
   width: 25%;
   padding-top: 4%;
+  transition:1s
+}
+
+.active-button {
+  color: #f8f8f8;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 25%;
+  padding-top: 4%;
+  background-color: #0fd6cd;
+  transition:1s
 }
 
 nav a:hover {
-  color: #0fd6cd;
+  background-color: #77746f;
 }
 
 /* end header styles & begin landing page styles */
@@ -90,7 +101,7 @@ nav a:hover {
   display: flex;
   text-align: center;
   border-bottom: #f56505 solid 6px;
-  background-color: #e6e6e6;
+  background-image: url(black_mamba.png);
   justify-content: center;
 }
 
@@ -104,6 +115,7 @@ nav a:hover {
   margin: auto;
   padding: 5%;
   font-size: 4rem;
+  color: #f8f8f8;
 }
 
 .member-buttons{
@@ -117,9 +129,14 @@ nav a:hover {
   width: 35%;
   padding: 3% 2%;
   margin: 0 auto;
-  background-color: #f56505;
+  background-color: #0fd6cd;
   color: #f8f8f8;
   border-radius: 15px;
+  transition:1s
+}
+
+.sign-in:hover{
+  background-color: #f56505;
 }
 
 .sign-up{
@@ -129,6 +146,7 @@ nav a:hover {
 .content-box{
   display: flex;
   flex-wrap: wrap;
+  background-image: url(white_wall.png);
 }
 
 .inner-content-box{
