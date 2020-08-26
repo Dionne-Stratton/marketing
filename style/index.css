@@ -132,7 +132,7 @@ nav a:hover {
   background-color: #0fd6cd;
   color: #f8f8f8;
   border-radius: 15px;
-  trans.5s;
+  transition:.5s;
 }
 
 .sign-in:hover{
@@ -221,9 +221,9 @@ nav a:hover {
 
 /* end about page styles */
 
-/* begin styling for connect / contact page */
+/* begin styling for connect page */
 
-.contactsection {
+.connectsection {
   display: flex;
   flex-shrink: 3;
   margin: 5%;
@@ -231,24 +231,12 @@ nav a:hover {
 }
 
 
-.contactsection img {
+.connectsection img {
   width: 49%;
   object-fit: contain;
 }
 
-.blogsection {
-  display: flex;
-  flex-shrink: 3;
-  margin: 1%;
-  justify-content: center;
-}
-
-.blogsection img {
-  width: 49%;
-  object-fit: contain;
-}
-
-.aboutbox {
+.connectbox {
   width: 52%;
   display:inline-block;
   margin-top: 10%;
@@ -258,57 +246,32 @@ nav a:hover {
   font-size: 2vw;
   }
 
-.connectbox {
-  width: 52%;
-  display:inline-block;
-  margin-top: 10%;
-  margin-left: 5%
-  margin-bottom: 5%;
-  padding-left: 5%;
-  font-size: 2vw;
-  }
-    
+/* end connect page, begin blog page. */
+
+.blogsection {
+  display: flex;
+  flex-shrink: 3;
+  margin: 5%;
+  justify-content: center;
+}
+
+.blogsection img {
+  width: 49%;
+  object-fit: contain;
+}
 
 .blogbox {
   width: 52%;
   display:inline-block;
-  margin-top: 5%;
-  margin-left: 5%
+  margin-top: 10%;
+  margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
   font-size: 2vw;
   }
+/* 
+end blog page. */
 
-.pic {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic img {
-  width: 20vw;
-  height: 20vw;
-}
-
-
-.contactbutton {
-  background-color: 
-  color: 
-  padding: 1% 3%;
-  height: 2%;
-  font-size:1.5rem;
-  text-decoration: none;
-}
-
-.contactbutton:hover {
-  background-color:
-  color: 
-  animation-name: navhover;
-  animation-duration: 6s;
-  animation-iteration-count: 10;
-}
 
 /* begin footer styles */
 
@@ -427,14 +390,6 @@ footer {
     width: 80%;
     font-size: 3vw;
   }
-  .pic img {
-    width: 30vw;
-    height: 30vw;
-  }
-
-  .aboutbox {
-    font-size: 2vw;
-  }
 
   .blogbox {
     font-size: 2vw;
@@ -485,36 +440,35 @@ footer {
   .text-box {
     width: 80%;
     font-size: 3.5vw;
+    text-align: center;
   }
-  .pic img {
-    width: 40vw;
-    height: 40vw;
+ 
+  /* begin connect styles. */
+
   }
-  .section1 {
+  .connectsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
+    width: 96vw;
     margin: 5% 0%;
   }
-  .section1 img {
+
+  .connectbox {
     width: 80%;
+    font-size: 4vw;
+    text-align: center;
   }
+
 
   .blogsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
+    width: 96vw;
   }
   .blogsection img {
     width: 80%;
-  }
-
-  .aboutbox {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
   }
 
   .blogbox {
@@ -523,14 +477,7 @@ footer {
     text-align: center;
   }
 
-  .connectbox {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
-  }
-  .connectbox img {
-    width: 80%;
-  }
+
 
 }
 
