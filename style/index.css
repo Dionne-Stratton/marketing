@@ -231,6 +231,7 @@ nav a:hover {
 
 .connectsection {
   display: flex;
+  flex-wrap: nowrap;
   flex-shrink: 3;
   margin: 5%;
   justify-content: center;
@@ -478,6 +479,7 @@ footer {
   }
 
   /* begin connect styles. */
+
   .connectsection {
     display: flex;
     flex-wrap: wrap;
@@ -492,12 +494,15 @@ footer {
     text-align: center;
   }
 
+  /* begin blog styles */
+
   .blogsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 96vw;
+    width: 90vw;
   }
+  
   .blogsection img {
     width: 80%;
   }
