@@ -141,6 +141,11 @@ nav a:hover {
 
 .sign-up{
   color: #f56505;
+  transition:1s
+}
+
+.sign-up:hover{
+  color: #0fd6cd;
 }
 
 .content-box{
