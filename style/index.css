@@ -341,7 +341,12 @@ footer {
   .inner-content-box-2 p, .inner-content-box-3 p{
     font-size: 3rem;
   }
+
+  .team-member{
+    width: 50%;
+  }
 }
+
 
 @media (max-width: 800px) {
 
@@ -411,10 +416,6 @@ footer {
 
   .about-content{
     margin: 10% 10%;
-  }
-
-  .team-member{
-    width: 50%;
   }
 
   /* end about page styles & begin footer styles */
