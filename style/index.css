@@ -490,3 +490,12 @@ footer {
   }
 
 }
+
+@media(max-width: 320px){
+  h1{
+    font-size: 2rem;
+  }
+  .logo{
+    height: 4rem;
+  }
+}
