@@ -290,6 +290,17 @@ footer {
 
 /* end footer styles and begin media queries */
 
+@media (max-width: 1200px){
+  .member-buttons a{
+    font-size: 2rem;
+    width: 65%;
+    margin: 0 auto;
+  }
+  .inner-content-box p{
+    font-size: 3rem;
+  }
+}
+
 @media (max-width: 800px) {
 
   /* header */
@@ -405,6 +416,11 @@ footer {
 
   /* end header styles & begin home page content styles */
 
+  .member-buttons a{
+    font-size: 1.5rem;
+    width: 80%;
+  }
+
   .welcome-info p{
     width: 75%;
     padding: 2%;
@@ -473,4 +489,13 @@ footer {
     width: 80%;
   }
 
+}
+
+@media(max-width: 320px){
+  h1{
+    font-size: 2rem;
+  }
+  .logo{
+    height: 4rem;
+  }
 }
