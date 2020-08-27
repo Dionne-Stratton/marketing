@@ -28,4 +28,6 @@ Drea's Contributions:
 
   Also refactored directories for deployment on Netlify via GitHub to allow for seamless, real-time updating of the site; Deployed site.
 
+  Ensured Sign Up/In linked to deployed react app.
+
   Throughout the process Dionne and I kept open lines of communication and made compromises/adjustments to ensure that all pages flowed together and remained cohesive to avoid any components looking or feeling disjointed. 
