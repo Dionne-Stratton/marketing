@@ -1,5 +1,7 @@
 # marketing
 
+The main purpose of this site / product is largely base entertainment.
+
 Dionne's Contribution:
 
 To start the project, I created the initial HTML and CSS documents for all four pages.
@@ -16,4 +18,14 @@ For the Blog and Connect pages -
 
  All of the "post snippets" on the blog pages were completely fabricated by me and I hope that anyone reading them will find them just as ammusing.
 
-The main purpose of this site / product is largely base entertainment.
+Drea's Contributions:
+
+  Preparations: Logo Design; color pallete (Dionne helped choose the accent color); overall site aesthetic design (aside from Blog/Connect pages content); Landing Page markup design; Font selections; located and added background and other images for Home page; downloaded and organized Slack profile pictures for all team members, as well as taking note of their roles and GitHub profiles for inclusion on the About page
+
+  HTML: Refactored for neatness and functionality (header/footer/home/about); Ensured classes had sensical names; Double checked for accessibility (Dionne did a great job); Filled in content for Home and About pages; Added icons for footer and adjusted html structure of header/footer for proper styling using Flexbox and addition of logo.
+
+  CSS: Completed all styling for header/footer as well as Home and About page. Added notes along the way to clearly define which code was mine to avoid confusion between Dionne and I, and to make the code readable for anyone who may access it in the future. 
+
+  Also refactored directories for seamless deployment on Netlify via GitHub to allow for seamless, real-time updating of the site; Deployed site.
+
+  Throughout the process Dionne and I kept open lines of communication and made compromises/adjustments to ensure that all pages flowed together and remained cohesive to avoid any components looking or feeling disjointed. 
