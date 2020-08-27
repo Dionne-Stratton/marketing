@@ -290,20 +290,6 @@ nav a:hover {
   justify-content: center;
 }
 
-.connectbutton {
-  width: 15%;
-  background-image: linear-gradient(to bottom right, #0fd6cd, #028b70, #0fd6cd);
-  padding: 1%;
-  color: #f56505;
-  font-size:1.6rem;
-  text-decoration: none;
-  text-align: center;
-  }
-
-.connectbutton:hover {
-  background-image: linear-gradient(to bottom right, #f56505, #99430a, #f56505);
-}
-
 /* 
 end blog page. */
 
