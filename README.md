@@ -26,6 +26,6 @@ Drea's Contributions:
 
   CSS: Completed all styling for header/footer as well as Home and About page. Added notes along the way to clearly define which code was mine to avoid confusion between Dionne and I, and to make the code readable for anyone who may access it in the future. 
 
-  Also refactored directories for seamless deployment on Netlify via GitHub to allow for seamless, real-time updating of the site; Deployed site.
+  Also refactored directories for deployment on Netlify via GitHub to allow for seamless, real-time updating of the site; Deployed site.
 
   Throughout the process Dionne and I kept open lines of communication and made compromises/adjustments to ensure that all pages flowed together and remained cohesive to avoid any components looking or feeling disjointed. 
