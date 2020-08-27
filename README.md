@@ -24,7 +24,7 @@ Drea's Contributions:
 
   HTML: Refactored for neatness and functionality (header/footer/home/about); Ensured classes had sensical names; Double checked for accessibility (Dionne did a great job); Filled in content for Home and About pages; Added icons for footer and adjusted html structure of header/footer for proper styling using Flexbox and addition of logo.
 
-  CSS: Completed all styling for header/footer as well as Home and About page. Added notes along the way to clearly define which code was mine to avoid confusion between Dionne and I, and to make the code readable for anyone who may access it in the future. 
+  CSS: Completed all styling for header/footer as well as Home and About page. Added notes along the way to clearly define which code was mine to avoid confusion between Dionne and I, and to make the code readable for anyone who may access it in the future. Added media queries at 1200px and 320px in addition to the already placed 800px and 500px; completed all styles for header/footer/Home/About at all four widths.
 
   Also refactored directories for deployment on Netlify via GitHub to allow for seamless, real-time updating of the site; Deployed site.
 
