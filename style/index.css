@@ -267,12 +267,29 @@ nav a:hover {
   object-fit: contain;
 }
 
+.blogsection h3 {
+  color:teal;
+}
+
+.blogsection h3:hover {
+  color:#f56505;
+}
+
 .blogbox {
   width: 52%;
   display:inline-block;
   padding: 5%;
   font-size: 2vw;
 }
+
+.suggestionsection {
+  display: flex;
+  flex-shrink: 3;
+  margin: 5%;
+  padding-left: 5%;
+  justify-content: center;
+}
+
 /* 
 end blog page. */
 
@@ -476,7 +493,7 @@ footer {
     text-align: center;
   }
 
-  /* begin connect styles. */
+  /* begin connect page styles. */
 
   .connectsection {
     display: flex;
@@ -492,7 +509,7 @@ footer {
     text-align: center;
   }
 
-  /* begin blog styles */
+  /* begin blog page styles */
 
   .blogsection {
     display: flex;
