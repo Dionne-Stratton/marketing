@@ -277,7 +277,7 @@ nav a:hover {
 
 .blogbox {
   width: 52%;
-  display:inline-block;
+  display:flex;
   padding: 5%;
   font-size: 2vw;
 }
