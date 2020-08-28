@@ -20,7 +20,7 @@ For the Blog and Connect pages -
 
 Drea's Contributions:
 
-  Preparations: Logo Design; color pallete (Dionne helped choose the accent color); overall site aesthetic design (aside from Blog/Connect pages content); Landing Page markup design; Font selections; located and added background and other images for Home page; downloaded and organized Slack profile pictures for all team members, as well as taking note of their roles and GitHub profiles for inclusion on the About page
+  Preparations: Logo Design; color pallete (Dionne helped choose the accent color); overall site aesthetic design (aside from Blog/Connect pages content); Landing Page markup design; Font selections; located and added background and other images for Home/About pages; downloaded and organized Slack profile pictures for all team members, as well as taking note of their roles and GitHub profiles for inclusion on the About page
 
   HTML: Refactored for neatness and functionality (header/footer/home/about); Ensured classes had sensical names; Double checked for accessibility (Dionne did a great job); Filled in content for Home and About pages; Added icons for footer and adjusted html structure of header/footer for proper styling using Flexbox and addition of logo.
 
